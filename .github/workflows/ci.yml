@@ -69,6 +69,14 @@ jobs:
           name: package
           path: dist/
 
+      - name: Debug Version Variable
+        run: |
+            echo "Version is: $version"
+        
+      - name: Check Dist Directory
+        run: |
+            ls -la dist/  
+
       - name: Push to AWS S3
         run: |
           echo Deploying $version
