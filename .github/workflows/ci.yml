@@ -72,6 +72,7 @@ jobs:
         run: |
           echo "Bucket: '${{ secrets.APP_BUCKET }}'"
           
+          
       - name: Push to AWS S3
         run: |
           echo Deploying $version
