@@ -53,7 +53,7 @@ Plus, now I know Docker isn’t magic. It’s just clever use of Linux features 
 
 ---
 
-## Final Thoughts
+## Conclusion
 
 This deep dive made Docker feel less like a black box. I now know it’s not running tiny little computers—it’s just isolating processes with some smart kernel tricks. Knowing that makes me more confident when something breaks or when trying to optimize how containers run.
 
